@@ -18,4 +18,9 @@ public class MyQueue {
     public AllNode peek() {
         return myLinkedList.getHead();
     }
+
+    public AllNode dequeue() {
+        AllNode dequeuedNode = myLinkedList.deleteTop();
+        return dequeuedNode;
+    }
 }

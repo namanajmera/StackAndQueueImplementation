@@ -81,14 +81,14 @@ public class MyLinkedList<K> {
         newNode.setNext(tempNode);
     }
 
-    public AllNode deleteFirst() {
+    public AllNode deleteTop() {
         AllNode tempNode = this.head;
         this.head = head.getNext();
         System.out.println("Deleted element is :" + tempNode.getKey());
         return tempNode;
     }
 
-    public AllNode deleteLast() {
+    public AllNode deleteBottom() {
         AllNode tempNode = head;
         while (!tempNode.getNext().equals(tail)) {
             tempNode = tempNode.getNext();

@@ -35,17 +35,17 @@ public class MyLinkedList<K> {
             this.head = newNode;
         } else {
             AllNode tempNode = head;
-            while (tempNode.getNext() != null && (((Comparable<K>) tempNode.getNext().getKey()).compareTo((K) newNode.getKey())) < 0) {
+            while (tempNode.getNext() != null
+                    && (((Comparable<K>) tempNode.getNext().getKey()).compareTo((K) newNode.getKey())) < 0) {
                 tempNode = tempNode.getNext();
             }
-            if(tempNode.getNext() == null) {
-                AllNode myNode=search(tempNode.getKey());
+            if (tempNode.getNext() == null) {
+                AllNode myNode = search(tempNode.getKey());
                 myNode.setNext(newNode);
-                this.tail=newNode;
-            }
-            else {
+                this.tail = newNode;
+            } else {
                 newNode.setNext(tempNode.getNext());
-                AllNode myNode=search(tempNode.getKey());
+                AllNode myNode = search(tempNode.getKey());
                 myNode.setNext(newNode);
             }
         }

@@ -14,7 +14,6 @@ public class MyStack {
 
     public void printStack() {
         myLinkedList.printMyList();
-
     }
 
     public AllNode peek() {
@@ -27,15 +26,15 @@ public class MyStack {
     }
 
     public boolean isEmpty() {
-        if(size()==0)
+        if (size() == 0)
             return true;
         else
             return false;
     }
 
     public int size() {
-        int size=0;
-        size=myLinkedList.size();
+        int size = 0;
+        size = myLinkedList.size();
         return size;
     }
 }

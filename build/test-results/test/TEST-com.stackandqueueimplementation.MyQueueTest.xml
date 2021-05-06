@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stackandqueueimplementation.MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-06T10:06:16" hostname="HACKERNAMAN" time="0.045">
+  <properties/>
+  <testcase name="given3NumberWhenAddedToQueueShouldHaveFirstAddedNodeAtTop()" classname="com.stackandqueueimplementation.MyQueueTest" time="0.045"/>
+  <system-out><![CDATA[My List is : 56->30->70
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

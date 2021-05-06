@@ -1,2 +1,4 @@
 com/stackandqueueimplementation/MyStackTest.java
  com.stackandqueueimplementation.MyStackTest
+com/stackandqueueimplementation/MyQueueTest.java
+ com.stackandqueueimplementation.MyQueueTest

@@ -2,6 +2,8 @@ com/stackandqueueimplementation/AllNode.java
  com.stackandqueueimplementation.AllNode
 com/stackandqueueimplementation/MyNode.java
  com.stackandqueueimplementation.MyNode
+com/stackandqueueimplementation/MyQueue.java
+ com.stackandqueueimplementation.MyQueue
 com/stackandqueueimplementation/MyStack.java
  com.stackandqueueimplementation.MyStack
 com/stackandqueueimplementation/MyLinkedList.java
